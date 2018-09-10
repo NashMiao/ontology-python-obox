@@ -10,7 +10,7 @@ with open(path.join(getcwd(), 'README.md')) as f:
 
 setup(
     name='ontology-dapp-box',
-    version='0.0.0',
+    version='0.0.1',
     description='An DApp template project management tool based on Ontology blockchain.',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -33,4 +33,7 @@ setup(
         'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
         'Programming Language :: Python :: 3.7',
     ],
+    entry_points={
+        'console_scripts': 'ontology-dapp-box=box.__main__:run'
+    }
 )
