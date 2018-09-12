@@ -107,3 +107,4 @@ dist
 build
 ontology_dapp_box.egg-info
 .idea
+.vscode
