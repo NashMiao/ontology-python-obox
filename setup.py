@@ -9,9 +9,9 @@ with open(path.join(getcwd(), 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name='ontology-dapp-box',
+    name='OBox',
     version='0.0.1',
-    description='An DApp template project management tool based on Ontology blockchain.',
+    description='An DApp template project management tool based on Ontology Blockchain.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='NashMiao',
@@ -21,6 +21,7 @@ setup(
     license='GNU Lesser General Public License v3 (LGPLv3)',
     packages=find_packages(),
     install_requires=[
+        'ontology-python-sdk'
         'gitpython'
     ],
     python_requires='>=3.7',

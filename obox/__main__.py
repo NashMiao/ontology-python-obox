@@ -9,7 +9,7 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser(
         description='An DApp template project management tool based on Ontology blockchain.')
-    parser.add_argument('--install', '-i', type=str, help='install a DApp template project into local environment.')
+    parser.add_argument('--unbox', type=str, help='Downloads a OBox， a pre-built Ontology DApp project.')
     args = parser.parse_args()
     return args
 
@@ -36,7 +36,8 @@ def clone(repo: str):
 
 def run():
     args = parse_args()
-    clone(args.install)
+    print(args)
+    # clone(args.unbox)
 
 
 if __name__ == '__main__':
