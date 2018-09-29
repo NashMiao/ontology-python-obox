@@ -23,5 +23,5 @@ class OBoxError:
 
     network_error = get_error.__func__(20000, 'please make sure you network state, and the repository exists.')
 
-    write_error = get_error.__func__(30000, 'something already exists at the destination.')
+    repo_exist_error = get_error.__func__(30000, 'something already exists at the destination.')
     permission_error = get_error.__func__(30001, 'permission denied, please check your file path.')
