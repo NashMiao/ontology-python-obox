@@ -1,1 +1,112 @@
-{"functions":[{"name":"Main","parameters":[{"name":"operation","type":""},{"name":"args","type":""}],"returntype":""},{"name":"Symbol","parameters":[{"name":"","type":""}],"returntype":""},{"name":"Name","parameters":[{"name":"","type":""}],"returntype":""},{"name":"Decimal","parameters":[{"name":"","type":""}],"returntype":""},{"name":"TotalSupply","parameters":[{"name":"","type":""}],"returntype":""},{"name":"Init","parameters":[{"name":"","type":""}],"returntype":""},{"name":"Transfer","parameters":[{"name":"from_acct","type":""},{"name":"to_acct","type":""},{"name":"amount","type":""}],"returntype":""},{"name":"TransferMulti","parameters":[{"name":"args","type":""}],"returntype":""},{"name":"Approve","parameters":[{"name":"owner","type":""},{"name":"spender","type":""},{"name":"amount","type":""}],"returntype":""},{"name":"TransferFrom","parameters":[{"name":"sender","type":""},{"name":"from_acct","type":""},{"name":"to_acct","type":""},{"name":"amount","type":""}],"returntype":""},{"name":"BalanceOf","parameters":[{"name":"account","type":""}],"returntype":""},{"name":"Allowance","parameters":[{"name":"owner","type":""},{"name":"spender","type":""}],"returntype":""}]}
+{
+    "hash": "f9f47e6a80482eb1c8831789f46dbc5a4f606222",
+    "entrypoint": "Main",
+    "functions": [
+        {
+            "name": "Symbol",
+            "parameters": []
+        },
+        {
+            "name": "Name",
+            "parameters": []
+        },
+        {
+            "name": "Decimal",
+            "parameters": []
+        },
+        {
+            "name": "TotalSupply",
+            "parameters": []
+        },
+        {
+            "name": "Init",
+            "parameters": []
+        },
+        {
+            "name": "Transfer",
+            "parameters": [
+                {
+                    "name": "from_acct",
+                    "type": ""
+                },
+                {
+                    "name": "to_acct",
+                    "type": ""
+                },
+                {
+                    "name": "amount",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "name": "TransferMulti",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "name": "Approve",
+            "parameters": [
+                {
+                    "name": "owner",
+                    "type": ""
+                },
+                {
+                    "name": "spender",
+                    "type": ""
+                },
+                {
+                    "name": "amount",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "name": "TransferFrom",
+            "parameters": [
+                {
+                    "name": "sender",
+                    "type": ""
+                },
+                {
+                    "name": "from_acct",
+                    "type": ""
+                },
+                {
+                    "name": "to_acct",
+                    "type": ""
+                },
+                {
+                    "name": "amount",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "name": "BalanceOf",
+            "parameters": [
+                {
+                    "name": "account",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "name": "Allowance",
+            "parameters": [
+                {
+                    "name": "owner",
+                    "type": ""
+                },
+                {
+                    "name": "spender",
+                    "type": ""
+                }
+            ]
+        }
+    ]
+}
